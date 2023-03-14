@@ -1,0 +1,158 @@
+*{margin:0; padding:0; box-sizing:borderbox;}
+
+body{
+    font-family: 'Poppins', sans-serif; color:#4a69bd; font-size:16px;
+}
+.container{
+    max-width:1000px;
+    background-color:#b8e994;
+    margin:0 auto;
+    padding:20px;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    color:#3742fa;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-family:Georgia, serif;
+}
+/*header section*/
+header{
+
+}
+.profile-photo{
+    width:100px;
+    height:100px;
+    border:3px solid #f1f1f1;
+    border-radius:50%;
+    float:left;
+    margin-right:15px;
+}
+.bio-info{
+    float:left;
+    padding-top:15px;
+}
+.bio-info h1{
+    margin-bottom:5px;
+}
+.contact-info{
+    float:right;
+    padding: 15px 20px 0 0;    
+}
+.contact-info a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#4a69bd;    
+}
+.contact-info a:hover{
+    text-decoration:underline;
+    color:#3742fa;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:3px solid #722481;
+    border-width:100%;
+    border-bottom:none;
+    margin:20px auto;
+}
+/*======================
+Personal Section
+=======================*/
+#personal-detail{
+
+}
+.content{
+
+}
+.left-side{
+    float:left;
+    width:30%;
+}
+.right-side{
+    width:70%;
+    float:left;
+}
+.common-hr{
+    border:2px solid #074407;
+    margin:20px auto;
+    width:100%;
+    border-bottom:none;
+}
+/*==============
+Experience
+================
+*/
+#Exprience{
+
+}
+.right-side > h4, h5, p{
+    line-height:25px;
+    text-align:justify;
+} 
+/*==============
+Skill
+================
+*/
+progress{
+    width:100%;
+    height:20px;
+    border-radius:10px;
+    background-color:#ddd;    
+}
+/* For Webkit-based browsers (Chrome, Safari, etc.) */
+progress::-webkit-progress-value {
+    background-color: blue;
+  }
+  
+  /* For Firefox */
+  progress::-moz-progress-bar {
+    background-color: rgba(17, 13, 214, 0.74);
+  }
+  /*==============
+Education
+================
+*/
+.mba{
+    float:left;
+    margin-right:30px;
+}
+.bss{
+    float:left;
+}
+/*==============
+Footer area
+================
+*/
+footer{
+  
+}
+.footer-area{
+    background-color:#131212;
+    text-align:center;
+    padding:10px;    
+}
+.footer-area a{
+    text-decoration:none;
+    padding:5px;
+    color:#ffffff;
+    
+}
+.footer-area a:hover{
+    color:#3742fa;
+}
+.footer-area p{
+    text-align:center;
+    color:#f1f1f1;
+    margin-top:10px;
+}
+  
+ 
+  
+
+  
+  
+  
+  
+  
